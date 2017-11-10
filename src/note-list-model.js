@@ -13,5 +13,9 @@
     this._list.push(note);
   };
 
+  NoteList.prototype.getNotebyId = function(id){
+  return this.getNotes()[0];
+  };
+
 exports.NoteList = NoteList;
 })(this);
